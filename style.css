@@ -179,7 +179,7 @@
 
 
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 600px) {
     .content nav{
         width: 100%;
         height: 80px;
@@ -194,12 +194,11 @@
     .about{
         width: 100%;
         height: 100vh;
-        margin-top: 100px;
+        margin-top: 80px;
     }
     .about .image img{
         width: 100%;
         height: 600px;
-        margin-top: 60px;
     }
     .about .text{
         width: 100%;
@@ -217,11 +216,12 @@
     }
 
     .special-food{
-        margin-top: 450px;
+        margin-top: 480px;
     }
 
 }
-@media screen and (max-width: 1200px) {
+
+@media screen and (max-width: 768px) {
     .content nav{
         width: 100%;
         height: 80px;
@@ -236,12 +236,11 @@
     .about{
         width: 100%;
         height: 100vh;
-        margin-top: 100px;
+        margin-top: 80px;
     }
     .about .image img{
         width: 100%;
         height: 600px;
-        margin-top: 60px;
     }
     .about .text{
         width: 100%;
@@ -259,7 +258,83 @@
     }
 
     .special-food{
-        margin-top: 450px;
+        margin-top: 300px;
     }
 
 }
+
+
+@media screen and (max-width: 1024px) {
+    .content nav{
+        width: 100%;
+        height: 80px;
+        padding-top: 5px;
+    }
+    .content nav ul li{
+        padding: 0px;
+    }
+    .banner h1{
+        font-size: 50px;
+    }
+    .about{
+        width: 100%;
+        height: 100vh;
+        margin-top: 80px;
+    }
+    .about .image img{
+        width: 100%;
+        height: 600px;
+    }
+    .about .text{
+        width: 100%;
+        text-align: center;
+    }
+    .about .text h4{
+        margin-bottom: 5px;
+    }
+    .about .text h1{
+        margin-bottom: 10px;
+    }
+    .about .text p {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .special-food{
+        margin-top: 300px;
+    }
+
+}
+
+
+@media screen and (max-width: 1440px) {
+    .content nav{
+        width: 100%;
+        height: 80px;
+        padding-top: 5px;
+    }
+    .content nav ul li{
+        padding: 0px;
+    }
+    .banner h1{
+        font-size: 50px;
+    }
+    .about{
+        width: 100%;
+        height: 100vh;
+        margin-top: 0px;
+    }
+    .about .text h4{
+        margin-bottom: 5px;
+    }
+    .about .text h1{
+        margin-bottom: 10px;
+    }
+    .special-food{
+        margin-top: 00px;
+    }
+
+}
+
+
+
