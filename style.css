@@ -278,7 +278,7 @@
     .about{
         width: 100%;
         height: 100vh;
-        /* margin-top: 80px; */
+        margin-top: 80px;
     }
     .about .image img{
         width: 100%;
@@ -326,7 +326,7 @@
     }
 
     .special-food{
-        /* margin-top: 400px; */
+        margin-top: 200px;
     }
 
 }
