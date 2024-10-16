@@ -324,6 +324,9 @@
         height: 100vh;
         margin-top: 0px;
     }
+    .about .image img{
+        margin-top: 60px;
+    }
     .about .text h4{
         margin-bottom: 5px;
     }
