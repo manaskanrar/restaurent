@@ -130,56 +130,13 @@
     background-color: black;
 }
 
-/*special-food*/
 .special-food{
     width: 100%;
-    height: 35vh;
-}
-.special-text h4{
-    font-family: 'kaushan';
-    color: crimson;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 40px;
-}
-.special-text h1{
-    font-size: 45px;
-    text-align: center;
-}
-.special-card{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    margin-top: 40px;
-    flex-wrap: wrap;
-    cursor: pointer;
-}
-.sp-image{
-    width: 350px;
-    height: 350px;
-    background-color: #f1f1f1;
-    margin-bottom: 20px;
-}
-.sp-image img{
-    width: 300px;
-    height: auto;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-.sp-text{
-    text-align: center;
-    color: gray;
-    font-family: 'kaushan';
+    height: 100vh;
+    background-color: bisque;
 }
 
 
-/*addvertiesment*/
 
 
 @media screen and (max-width: 600px) {
@@ -216,6 +173,9 @@
     .about .text p {
         width: 100%;
         padding: 10px;
+    }
+    .special-food{
+        margin-top: 400px;
     }
 
 }
@@ -303,7 +263,7 @@
     .about{
         width: 100%;
         height: 100vh;
-        /* margin-top: 80px; */
+        margin-top: 80px;
     }
     .about .image img{
         width: 100%;
